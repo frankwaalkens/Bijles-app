@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+	position: relative;
+}
+
+.app-container .top-bar {
+	width: 100%;
+	height: 75px;
+	top: 0;
+	background-color: #333;
+}
+
+.app-container .top-bar .logo {
+    padding: 10px 10px 15px 10px;
+    float: left;
+}
+
+.app-container .top-bar .logo img {
+	width: 50px;
+}
+
+.app-container .top-bar .add-member-button {
+	width: 200px;
+    padding: 27px 25px 26px 25px;
+    font-family: open sans;
+    text-align: center;
+    color: #333;
+    background-color: #efe034;
+    display: inline-block;
+    float: right;
+    border-left: solid 1px #333;
+
+	&:hover {
+		background-color: #333;
+		color: white;
+		transition: background-color 0.5s ease;		
+		cursor: pointer;
+		border-left: solid 1px #efe034;
+	}
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}

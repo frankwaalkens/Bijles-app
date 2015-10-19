@@ -12,12 +12,12 @@ var run = require ('run-sequence');
 var SourceDirectories = require ('./utils/SourceDirectories');
 
 var _path = {
-  ENTRY_POINT: './src/App.jsx',
+  ENTRY_POINT: './src/js/App.jsx',
   OUTPUT_JS: 'App.js',
   OUTPUT_CSS: 'App.css',
   SERVER: [ './server.js', './server/**/*' ],
   HTML: './src/*.html',
-  SASS: './src/**/*.scss',
+  SASS: './src/sass/**/*.scss',
   REACT: [ './src/**/*.jsx', './src/**/*.js' ],
   REACT_DIRECTORIES: SourceDirectories ('./src', 'relative'),
   SRC: './src',

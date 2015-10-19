@@ -1,0 +1,29 @@
+.app-modal {
+	width: 450px;
+    position: fixed;
+    top: 40%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+.app-modal-header {
+	height: 50px;
+	background-color: #efe034;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.app-modal-content {
+	height: 200px;
+}
+
+.app-modal-footer {
+	height: 50px;
+	background-color: #efe034;
+	border-radius: 0px 0px 5px 5px;
+
+}
