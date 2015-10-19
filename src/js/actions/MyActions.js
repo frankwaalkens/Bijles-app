@@ -3,6 +3,8 @@ var MyConstants = require ('../constants/MyConstants');
 
 var MyActions = {
   setName: function (object) {
+    console.log('test');
+
     MyDispatcher.handleAction ({
       actionType: MyConstants.SET_NAME,
       data: object
