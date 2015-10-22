@@ -2,7 +2,7 @@
   "name": "node-react-flux",
   "version": "0.0.0",
   "private": true,
-  "author": "Visionist, Inc.",
+  "author": "Frank Waalkens.",
   "description": "Gulp ready Node.js application with everything you need to hit the ground running with React.js, Flux, and Sass.",
   "main": "server.js",
   "scripts": {
@@ -25,19 +25,19 @@
     "deep-diff": "~0.3.2"
   },
   "devDependencies": {
-    "gulp": "~3.9.0",
-    "gulp-sass": "^2.0.3",
-    "gulp-watch": "~4.3.3",
-    "run-sequence": "~1.1.2",
-    "wrench": "~1.5.8",
-    "del": "~2.0.2",
     "browserify": "^10.2.4",
+    "del": "~2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-less": "~3.0.3",
+    "gulp-sass": "^2.0.3",
     "gulp-streamify": "0.0.5",
+    "gulp-watch": "~4.3.3",
     "react-tools": "^0.13.3",
     "reactify": "^1.1.1",
+    "run-sequence": "~1.1.2",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.2.3",
-    "gulp-concat": "~2.6.0",
-    "gulp-less": "~3.0.3"
+    "wrench": "~1.5.8"
   }
 }

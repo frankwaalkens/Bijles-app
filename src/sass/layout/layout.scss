@@ -5,6 +5,7 @@ html, body {
 
 body {
 	position: relative;
+  font-family: open sans;
 }
 
 .app-container .top-bar {
@@ -20,16 +21,15 @@ body {
 }
 
 .app-container .top-bar .logo img {
-	width: 50px;
+	width: 160px;
 }
 
 .app-container .top-bar .add-member-button {
 	width: 200px;
     padding: 27px 25px 26px 25px;
-    font-family: open sans;
     text-align: center;
-    color: #333;
-    background-color: #efe034;
+    color: white;
+    background-color: #0066cc;
     display: inline-block;
     float: right;
     border-left: solid 1px #333;
@@ -39,7 +39,7 @@ body {
 		color: white;
 		transition: background-color 0.5s ease;		
 		cursor: pointer;
-		border-left: solid 1px #efe034;
+		border-left: solid 1px #0066cc;
 	}
 }
 
